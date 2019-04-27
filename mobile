@@ -8,7 +8,13 @@
     <link rel="shortcut icon" href="" type="image/x-icon">
     <link rel="apple-touch-icon" href="" type="image/x-icon">
     
-    
+<script type="text/javascript">
+<!--
+if (screen.width > 699) {
+document.location = "index.html";
+}
+//-->
+</script>
     
     
     <meta http-equiv="X-Wix-Meta-Site-Id" content="b1440a90-5adc-4480-a5e9-ad75b5cee4bd">
