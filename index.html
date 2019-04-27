@@ -15,8 +15,15 @@ document.location = "mobile.html";
 }
 //-->
 </script>
-    
-    
+
+<script language=javascript>
+<!--
+if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+   location.replace("mobile.html");
+}
+-->
+</script>
+        
     
     <meta http-equiv="X-Wix-Meta-Site-Id" content="b1440a90-5adc-4480-a5e9-ad75b5cee4bd">
     <meta http-equiv="X-Wix-Application-Instance-Id" content="b5ad2a9c-4b28-4a4e-b300-5b60e505ce74">
